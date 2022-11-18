@@ -99,7 +99,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Reference>__ReferenceID4</x:Reference>
+      <x:Reference>__ReferenceID3</x:Reference>
     </Flowchart.StartNode>
     <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
@@ -146,7 +146,7 @@
         </sap:WorkflowViewStateService.ViewState>
       </Sequence>
     </FlowStep>
-    <FlowStep x:Name="__ReferenceID1">
+    <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">660,63.599999999999994</av:Point>
@@ -183,7 +183,7 @@
         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="337.6,102.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[varTextoAEscribir]" />
       </Sequence>
       <FlowStep.Next>
-        <FlowStep x:Name="__ReferenceID2">
+        <FlowStep x:Name="__ReferenceID1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">660,208.8</av:Point>
@@ -280,12 +280,11 @@
         </sap:WorkflowViewStateService.ViewState>
       </Sequence>
     </FlowStep>
-    <FlowStep x:Name="__ReferenceID3">
+    <FlowStep x:Name="__ReferenceID2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">100,303.6</av:Point>
           <av:Size x:Key="ShapeSize">200,92.8</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">200,396.40000000000003 200,410 630.0000000000001,410 630.0000000000001,110 660,110</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <Sequence DisplayName="Codificando" sap:VirtualizedContainerService.HintSize="200,92.8" sap2010:WorkflowViewState.IdRef="Sequence_9">
@@ -327,9 +326,6 @@
         </Assign>
         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="337.6,102.4" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Encontré &quot; + varCantidadArchivos.ToString + &quot; archivo en la ruta&quot;]" />
       </Sequence>
-      <FlowStep.Next>
-        <x:Reference>__ReferenceID1</x:Reference>
-      </FlowStep.Next>
     </FlowStep>
     <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
@@ -421,8 +417,8 @@
         </sap:WorkflowViewStateService.ViewState>
       </Sequence>
     </FlowStep>
-    <x:Reference>__ReferenceID2</x:Reference>
-    <FlowStep x:Name="__ReferenceID4">
+    <x:Reference>__ReferenceID1</x:Reference>
+    <FlowStep x:Name="__ReferenceID3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">100,143.6</av:Point>
@@ -458,7 +454,7 @@
         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="337.6,102.4" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[varTextoAEscribir]" />
       </Sequence>
       <FlowStep.Next>
-        <x:Reference>__ReferenceID3</x:Reference>
+        <x:Reference>__ReferenceID2</x:Reference>
       </FlowStep.Next>
     </FlowStep>
   </Flowchart>
