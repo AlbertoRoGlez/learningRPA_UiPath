@@ -3,8 +3,11 @@
   "description": "This project contains all the topics seen in the RPA course",
   "main": "Main.xaml",
   "dependencies": {
+    "IronOcr.Languages.Spanish": "[2020.11.2]",
     "UiPath.Excel.Activities": "[2.16.0]",
+    "UiPath.IntelligentOCR.Activities": "[6.5.0]",
     "UiPath.Mail.Activities": "[1.18.1]",
+    "UiPath.OCR.Activities": "[3.11.0]",
     "UiPath.PDF.Activities": "[3.10.1]",
     "UiPath.System.Activities": "[22.10.3]",
     "UiPath.Testing.Activities": "[22.10.0]",
